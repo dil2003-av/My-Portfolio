@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+      <p>How to Contact Me:</p>
+
+      <table style="width: 400px; text-align: left; border: 1px solid black; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th colspan="2">Contact Information</th>
+          </tr>
+          <tr>
+            <th>Method</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Email</td>
+            <td><a href="mailto:kaushalyadilmi.av2003@gmail.com">kaushalyadilmi.av2003@gmail.com</a></td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>+94 77 54 12 098</td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>No 122/B, Circular Road, Makuluwa, Galle</td>
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <h3>Have a question or want to work together? Let’s connect!</h3>
+      <form action="/submit-form" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" id="firstName" required>
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="lastName" id="lastName" required>
+          <br><br>
+
+          <label for="mobileNumber">Mobile Number:</label>
+          <input type="text" name="mobileNumber" id="mobileNumber" required>
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+        </fieldset>
+
+        <button type="submit">Send</button>
+      </form>
+    
+</body>
+</html>
